@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv("data/air_quality_historical.csv")
+df = pd.read_csv("data/air_quality_dataset.csv")
 
 # Calculate the average AQI
 aqi = df["us_aqi"].mean()
